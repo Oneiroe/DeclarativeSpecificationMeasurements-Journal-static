@@ -30,7 +30,7 @@ Index
   * **output[tracesMeasures].csv** : measures for each trace of the log for a specification and all its rules.
   * **output[tracesMeasuresStats].csv** : statistics fo the distribution of trace measures for the specification and its rules.
   * **specification.json** : set of rules of the specification.
-* **experiment-1** ([experiment-1.zip](.\experiment-1.zip)): script required to reproduce the experiment-1:
+* **experiment-1** ([experiment-1](.\experiment-1\)): script required to reproduce the experiment-1:
     * **REAL-LIFE-MINERS-COMPARISON.sh**: BASH script to launch the experiment (UNIX only). It is required Java 8-11 and Python3 with pm4py package installed.
 	! ATTENTION: please note that due to space limit we could upload A) all the data-set, B) the specification miners executable (MINERful, Janus, Perracotta). In order to reproduce the experiment those should be downloaded and placed as demanded by the launcher script
 	* **LOG/dataset-references.txt**: references to the data-set for their download
@@ -40,7 +40,6 @@ Index
 
 * **experiment-2** ([experiment-2.zip](.\experiment-2.zip)): results for experiment 2
 	* results for experiment 2 (the model was mined with Janus miner with a Confidence threshold of 1 and Support threshold of 0)
-* **Sepsis dataset** ([Sepsis-dataset.zip](.\Sepsis-dataset.zip)):  the data used for our experiments, provided in CSV,XES, and a textual "PERRACOTTA-ready" one. 
 
 General remarks
 =========================
@@ -57,7 +56,7 @@ Files
  - [Sepsis-dataset.zip](.\Sepsis-dataset.zip)
  - [example.zip](.\example.zip)
  - [experiment-1-results.zip](.\experiment-1-results.zip)
- - [experiment-1.zip](.\experiment-1.zip)
+ - [experiment-1](.\experiment\)
  - [experiment-2.zip](.\experiment-2.zip)
  - [tool-executable.zip.001](.\tool-executable.zip.001)
  - [tool-executable.zip.002](.\tool-executable.zip.002)
