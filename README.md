@@ -17,30 +17,34 @@ For details on the usage of the software consult the [wiki page](https://github.
 Index
 =========================
 
-[LICENSE](.\LICENSE)
+* **LICENSE**
 
 * **tool-executable**: java executable of our tool. It requires Java version 8-11 to be executed;
-  * [tool-executable.zip.001](.\tool-executable.zip.001)
-  * [tool-executable.zip.002](.\tool-executable.zip.002)
-  * [tool-executable.zip.003](.\tool-executable.zip.003)
-* **example** ([example.zip](.\example.zip)): Contains the complete and precise data used for the trailing example in the paper (Table.1):
+  * tool-executable.zip.001
+  * tool-executable.zip.002
+  * tool-executable.zip.003
+* **example.zip**: Contains the complete and precise data used for the trailing example in the paper (Table.1):
   * **log.txt** event log from the example
   * **output[eventsEvaluation].csv**: events evaluation for each rule and specification. 
   * **output[logMeasures].csv** : measures for the log for a specification and all its rules.
   * **output[tracesMeasures].csv** : measures for each trace of the log for a specification and all its rules.
   * **output[tracesMeasuresStats].csv** : statistics fo the distribution of trace measures for the specification and its rules.
   * **specification.json** : set of rules of the specification.
-* **experiment-1** ([experiment-1.zip](.\experiment-1.zip)): script required to reproduce the experiment-1:
+* **experiment-1** (folder): scripts required to reproduce the experiment-1:
+    * **executables**: contains the executables of the declarative miners used for the experiment (Janus, MINERful, Perracotta).
+    * **LOGS**: folder where to place the XES event log to be used for the experiment; contains the reference to download all the logs used in the paper.
+    * **RESULTS**: folder where to find the results of the experiment.
+    	* **plots-generator.py**: utility python script to plot the graphs used in the paper.
+    * **peracotta-log-converter.py**: utility python script to convert a xes log into one readable by Perracotta.
+    * **peracotta-model-converter.py**: utility python script to convert the specification discovered by Perracota into DECLARE notation.
     * **REAL-LIFE-MINERS-COMPARISON.sh**: BASH script to launch the experiment (UNIX only). It is required Java 8-11 and Python3 with pm4py package installed.
-	! ATTENTION: please note that due to space limit we could upload A) all the data-set, B) the specification miners executable (MINERful, Janus, Perracotta). In order to reproduce the experiment those should be downloaded and placed as demanded by the launcher script
-	* **LOG/dataset-references.txt**: references to the data-set for their download
-* **experiment-1-results** ([experiment-1-results.zip](.\experiment-1-results.zip)): results for experiment 1 used in the paper (sepsis) and left out due to space (others).
+	! ATTENTION: a Linux enviromnet is expected
+* **experiment-1-results.zip**: results for experiment 1 used in the paper.
   * **X-results**: measures for each specification discovered
   * **X-times**: for each specification discovered was saved the number of rules and the time required to compute its measures
 
-* **experiment-2** ([experiment-2.zip](.\experiment-2.zip)): results for experiment 2
+* **experiment-2.zip**: results for experiment 2
 	* results for experiment 2 (the model was mined with Janus miner with a Confidence threshold of 1 and Support threshold of 0)
-* **Sepsis dataset** ([Sepsis-dataset.zip](.\Sepsis-dataset.zip)):  the data used for our experiments, provided in CSV,XES, and a textual "PERRACOTTA-ready" one. 
 
 General remarks
 =========================
