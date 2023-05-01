@@ -32,7 +32,9 @@ Index
   * **specification.json** : set of rules of the specification.
 * **experiment-1** (folder): scripts required to reproduce the experiment-1:
     * **executables**: contains the executables of the declarative miners used for the experiment (Janus, MINERful, Perracotta).
-    * **LOGS**: folder where to place the XES event log to be used for the experiment; contains the reference to download all the logs used in the paper.
+    * **LOGS**: folder where to place the XES event log to be used for the experiment; 
+    	* **LOGS.zip**: contains the logs used in the experiments reported in the paper.
+    	* **dataset-references.txt**: contains the references to the logs. 
     * **RESULTS**: folder where to find the results of the experiment.
     	* **plots-generator.py**: utility python script to plot the graphs used in the paper.
     * **peracotta-log-converter.py**: utility python script to convert a xes log into one readable by Perracotta.
