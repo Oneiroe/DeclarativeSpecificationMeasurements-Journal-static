@@ -30,10 +30,16 @@ Index
   * **output[tracesMeasures].csv** : measures for each trace of the log for a specification and all its rules.
   * **output[tracesMeasuresStats].csv** : statistics fo the distribution of trace measures for the specification and its rules.
   * **specification.json** : set of rules of the specification.
-* **experiment-1** ([experiment-1](.\experiment-1\)): script required to reproduce the experiment-1:
+* **experiment-1** (folder): scripts required to reproduce the experiment-1:
+    * **executables**: contains the executables of the declarative miners used for the experiment (Janus, MINERful, Perracotta).
+    * **LOGS**: folder where to place the XES event log to be used for the experiment; 
+    	* [**LOGS.zip**](.\experiment-1\LOGS.zip): contains the logs used in the experiments reported in the paper.
+    	* **dataset-references.txt**: contains the references to the logs. 
+    * **RESULTS**: folder where to find the results of the experiment.
+    	* **plots-generator.py**: utility python script to plot the graphs used in the paper.
+    * **peracotta-log-converter.py**: utility python script to convert a xes log into one readable by Perracotta.
+    * **peracotta-model-converter.py**: utility python script to convert the specification discovered by Perracotta into DECLARE notation.
     * **REAL-LIFE-MINERS-COMPARISON.sh**: BASH script to launch the experiment (UNIX only). It is required Java 8-11 and Python3 with pm4py package installed.
-	! ATTENTION: please note that due to space limit we could upload A) all the data-set, B) the specification miners executable (MINERful, Janus, Perracotta). In order to reproduce the experiment those should be downloaded and placed as demanded by the launcher script
-	* **LOG/dataset-references.txt**: references to the data-set for their download
 * **experiment-1-results** ([experiment-1-results.zip](.\experiment-1-results.zip)): results for experiment 1 used in the paper (sepsis) and left out due to space (others).
   * **X-results**: measures for each specification discovered
   * **X-times**: for each specification discovered was saved the number of rules and the time required to compute its measures
@@ -53,10 +59,24 @@ Files
 
  - [LICENSE](.\LICENSE)
  - [README.md](.\README.md)
- - [Sepsis-dataset.zip](.\Sepsis-dataset.zip)
  - [example.zip](.\example.zip)
  - [experiment-1-results.zip](.\experiment-1-results.zip)
- - [experiment-1](.\experiment\)
+ - experiment-1
+ 	- [LOGS.zip](.\experiment-1\LOGS.zip)
+ 	- [experiment-1.zip.001](.\experiment-1\experiment-1.zip.001)
+ 	- [experiment-1.zip.002](.\experiment-1\experiment-1.zip.002)
+ 	- [experiment-1.zip.003](.\experiment-1\experiment-1.zip.003)
+ 	- [experiment-1.zip.004](.\experiment-1\experiment-1.zip.004)
+ 	- [experiment-1.zip.005](.\experiment-1\experiment-1.zip.005)
+ 	- [experiment-1.zip.006](.\experiment-1\experiment-1.zip.006)
+ 	- [experiment-1.zip.007](.\experiment-1\experiment-1.zip.007)
+ 	- [experiment-1.zip.008](.\experiment-1\experiment-1.zip.008)
+ 	- [experiment-1.zip.009](.\experiment-1\experiment-1.zip.009)
+ 	- [experiment-1.zip.010](.\experiment-1\experiment-1.zip.010)
+ 	- [experiment-1.zip.011](.\experiment-1\experiment-1.zip.011)
+ 	- [experiment-1.zip.012](.\experiment-1\experiment-1.zip.012)
+ 	- [experiment-1.zip.013](.\experiment-1\experiment-1.zip.013)
+ 	- [experiment-1.zip.014](.\experiment-1\experiment-1.zip.014)
  - [experiment-2.zip](.\experiment-2.zip)
  - [tool-executable.zip.001](.\tool-executable.zip.001)
  - [tool-executable.zip.002](.\tool-executable.zip.002)
