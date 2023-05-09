@@ -1,5 +1,5 @@
 # Janus Declarative Specification Measurements - Journal
-Static Repository for results and tests used in the journal article relative to the Janus declarative specifications measurement component. This archive contains the additional material to the paper "Measuring Rule-based LTLf Process Specifications: A Probabilistic Data-driven Approach".
+Static Repository for results and tests used in the journal article relative to the Janus declarative specifications measurement component. This archive contains the additional material to the paper "Measuring Rule-based LTLf Process Specifications: A Probabilistic Data-driven Approach". The use-case study material can be found in this additional repository: [https://github.com/l2brb/Measurement-change-point-evaluation](https://github.com/l2brb/Measurement-change-point-evaluation). 
  
  * web page [https://oneiroe.github.io/DeclarativeSpecificationMeasurements-Journal-static/](https://oneiroe.github.io/DeclarativeSpecificationMeasurements-Journal-static/)
  * static GitHub page to just download the files [https://github.com/Oneiroe/DeclarativeSpecificationMeasurements-Journal-static](https://github.com/Oneiroe/DeclarativeSpecificationMeasurements-Journal-static)
